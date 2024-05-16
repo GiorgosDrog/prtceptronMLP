@@ -38,9 +38,22 @@ it took the model to complete process of education
 The best result after training was about 89.5% with size of the hidden layers at value of 10.
 In the training section we create plots to visualize the drop of the training loss and after the training we evaluate the trained model with validation dataset
 
-Here we monitor a screenshot of the last training epochs and in the end appears the evaluation results with percentage 89.7%
-![Screenshot (1499)](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/448277ee-4d23-43b7-81f7-f2b5f1e7e16d)
+Here we monitor a screenshot of the last training epochs and in the end appears the evaluation results with percentage 91.85&
+![Screenshot (1502)](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/4e5b1c91-ace9-4bf2-9486-9b22ba21b339)
 
-Below we compare the model's results with different hidden_sizes = 15 for blue line , 10 for orange line, 8 for grey line and 4 for yellow line 
+
+Below we compare the model's results with different hidden_sizes and Acvtivation Function = "Relu" for hidden layers = 15 for blue line , 10 for orange line, 8 for grey line and 4 for yellow line 
+![Screenshot (1502)](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/15544a7d-6a0c-4fae-bc9d-c0338553be2d)
+
+Acvtivation Function = "Tanh"
+![Screenshot (1503)](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/5fd0e4d1-dc84-432c-af5b-1e4f23f10ab7)
+
+Acvtivation Function = "Sigmoid"
+![Screenshot (1504)](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/b68ac852-dd0f-4165-8b1c-47105aa12781)
+
+The Final result are visualized on the talbe below in which each category has its own color 
+![Figure_1](https://github.com/GiorgosDrog/prtceptronMLP/assets/72260809/75e68ab9-976e-4837-8476-6934086e978d)
+
+
 
 
